@@ -1,0 +1,54 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    color: var(--hospital-green);
+    font-weight: 900;
+    background-color: var(--white);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0px;
+    color: var(--hospital-green);
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    gap: 15px;
+
+}
+
+.btn{
+    margin: 30px 0px;
+    width: 50%;
+}
+.btn-pink{
+    background-color: palevioletred;
+}
+.btn-pink:hover{
+    background-color: rgb(221, 131, 146);
+    color: rgb(116, 116, 116);
+}
+.shown{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+
